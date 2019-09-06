@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.label {
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+nav {
+    height: 5em; 
+    width: 100%;
+    background: #0984e3;
+    line-height: 5em;
+}
+
+header {
+    height: 15em;
+    width: 100%;
+    background: #74b9ff;
+    line-height: 15em;
+}
+
+.content {
+    height: 20em;
+    width: 100%;
+    background: #dfe6e9;
+    line-height: 20em; 
+}
+
+.signup {
+    height: 10em; 
+    width: 100%;
+    background: #81ecec;
+    line-height: 10em;
+}
+
+.feature {
+    height: 10em; 
+    width: 100%;
+    line-height: 10em;
+}
+
+.feature:nth-child(2) {
+    background: #fdcb6e;
+}
+
+.feature:nth-child(3) {
+    background: #ff7675;
+}
+
+.feature:nth-child(4) {
+    background: #a29bfe;
+}
