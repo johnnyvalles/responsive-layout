@@ -57,3 +57,37 @@ header {
 .feature:nth-child(4) {
     background: #a29bfe;
 }
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    .feature-sign {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .feature, .signup {
+        height: 15em;
+        width: 50%;
+        line-height: 15em;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1080px) {
+    .feature-sign {
+        display: block;
+    }
+
+    .signup {
+        width: 100%;
+        height: 10em;
+        line-height: 10em;
+    }
+
+    .feature {
+        width: 33.3333%;
+        float: left;
+        height: 18em;
+        line-height: 18em;
+    }
+}
